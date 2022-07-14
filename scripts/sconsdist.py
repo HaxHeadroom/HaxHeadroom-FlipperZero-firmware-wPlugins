@@ -47,7 +47,7 @@ class Main(App):
         project_name = project.project
         if project_name == "firmware" and filetype != "elf":
             project_name = "full"
-        return f"flipper-z-{self.target}-{project_name}-{self.args.suffix}.{filetype}"
+        return f"HaxHeadroom-firmware.{filetype}"
 
     def get_dist_filepath(self, filename):
         return join(self.output_dir_path, filename)
