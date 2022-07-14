@@ -1,50 +1,29 @@
-<h2>
+ ```                       ▓                        
+                    ▒     ░▓▓░                    
+                  ░       ▓▓▓▓▓                   
+                 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  B-B-Build with:                
+                 ▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓  $ git clone --recursive https://github.com/HaxHeadroom/HaxHeadroom-flipperzero-firmware-wPlugins.git                
+                       ▒▓ ▒▓▓▓▓▓  $ docker-compose up -d                
+                       ▒▓▓▓▓▓▓▓▓  $ docker-compose exec dev ./fbt resources icons                
+                 ▒ ▒▓▓▓▓▓ ▓▓▓▓▓▓  $ docker-compose exec dev ./fbt firmware_extapps FIRMWARE_APP_SET=ext_apps                
+                 ░      ▓ ▓▓▓▓▓▓  $ docker-compose exec dev ./fbt                
+                       ▒▓▓▓▓▓▓                    
+                  ▒  ▓▓▓▓▓▓▓▓▓                    
+                  ▓   ▓▓▓▓▓▓▓░                    
+                 ▓     ▓▓▓▓▓▒▓▓                   
+                ▓      ░▓   ▓▓░ ▓                 
+            ░▓    ▓  ▓    ▓  ▓    ▓░              
+        ▓          ░     ░   ▓         ▓          
+   ▓                ▒ ▒      ░              ▒ 
+   ```
+![](https://img.shields.io/github/commit-activity/w/HaxHeadroom/HaxHeadroom-flipperzero-firmware-wPlugins)
 
-[Flipper Zero Firmware](https://github.com/flipperdevices/flipperzero-firmware/blob/dev/ReadMe.md) <= READ THIS READ ME</h2>
-<b>Latest Updates:</b>
-- OFW: Added [`ELF Loader`/[FL-2627] Plugins API #1387 (By hedger/DrZlo13)](https://github.com/flipperdevices/flipperzero-firmware/pull/1387)
-- Moving apps to [`ELF`](https://github.com/RogueMaster/awesome-flipperzero-withModules/tree/rogue_main/elf) status in PLUGIN/GAMES list; to load with [the `.elf` files](https://github.com/RogueMaster/awesome-flipperzero-withModules/tree/rogue_main/elf) from SD using the `ELF Loader` APP.
-- Updated so elfs get built for games
-- Updated README with new compilation information `docker-compose exec dev ./fbt firmware_extapps FIRMWARE_APP_SET=ext_apps`
+[𝙾𝚏𝚏𝚒𝚌𝚒𝚊𝚕 𝙵𝚕𝚒𝚙𝚙𝚎𝚛 𝚉𝚎𝚛𝚘 𝙵𝚒𝚛𝚖𝚠𝚊𝚛𝚎 𝚁𝚎𝚊𝚍𝙼𝚎](https://github.com/flipperdevices/flipperzero-firmware/blob/dev/ReadMe.md)     |    [𝙱𝚎 𝚜𝚞𝚛𝚎 𝚝𝚘 𝚌𝚑𝚎𝚌𝚔 𝚘𝚞𝚝 𝚁𝚘𝚐𝚞𝚎𝙼𝚊𝚜𝚝𝚎𝚛'𝚜 𝚁𝚎𝚙𝚘](https://github.com/RogueMaster/flipperzero-firmware-wPlugins)
 
-<table width="100%" border="0" cellspacing="0">
-  <tr>
-    <td>
-
-<h3>This software is for experimental purposes only and is not meant for any illegal activity/purposes. We do not condone illegal activity and strongly encourage keeping transmissions to legal/valid uses allowed by law.</h3>
-<br><b>FLASH STOCK FIRST BEFORE UPDATING TO CUSTOM FIRMWARE<b>
-    
-<br>[FLIPPER PROJECT WISH LIST](https://github.com/RogueMaster/flipperzero-firmware-wPlugins/blob/unleashed/RoadMap.md) - [SAMPLE EDUCATIONAL PROJECTS 😄](https://github.com/RogueMaster/flipperzero-firmware-wPlugins/blob/unleashed/RoadMap.md)
-<br>[`FUN Links HERE` Collection for your Flipper SD](https://github.com/RogueMaster/awesome-flipperzero-withModules)
-</td>
-      <td>
-
-<h2>DONATIONS ACCEPTED 😄🚀💸</h2>
-BTC: <B>172CE1H1XZVt7tc4HDQ1q9Mej1K7VuHfEf</B><br>
-ETH: <B>0x6c46eE48Bd433b0ADE711B43D188Cf8215cd51c2</B>
-    <br>
-    <br>
-    
-Contact me on [Discord](https://discord.gg/gF2bBUzAFe) if you want a renamed Flipper DFU. I can do custom names too!
-<br><h2>[Join my Flipper/Amiibo Discord](https://discord.gg/gF2bBUzAFe)</h2>
-</td>
-      </tr>
-      <tr><td>
+*This software is for experimental purposes only and is not meant for any illegal activity/purposes. We do not condone illegal activity and strongly encourage keeping transmissions to legal/valid uses allowed by law.*
 
 <details>
-  <summary><B>You should clone with</B></summary></br>
-
-  ```shell
-$ git clone --recursive https://github.com/HaxHeadroom/HaxHeadroom-flipperzero-firmware-wPlugins.git
-$ docker-compose up -d
-$ docker-compose exec dev ./fbt resources icons
-$ docker-compose exec dev ./fbt firmware_extapps FIRMWARE_APP_SET=ext_apps
-$ docker-compose exec dev ./fbt
-```
-</details>
-
-<details>
-  <summary><B>Special Instructions</B></summary></br>
+  <summary>Special Instructions</summary></br>
   
 - [GAMES ONLY MODE PASSWORD: UP UP DOWN DOWN LEFT CENTER LEFT CENTER FOR MAIN MENU](https://github.com/RogueMaster/flipperzero-firmware-wPlugins/blob/unleashed/GAMES_ONLY.md)
 - Add a folder to SD card named `elf` ([the `.elf` files](https://github.com/RogueMaster/awesome-flipperzero-withModules/tree/rogue_main/elf))
