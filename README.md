@@ -35,7 +35,7 @@ Contact me on [Discord](https://discord.gg/gF2bBUzAFe) if you want a renamed Fli
   <summary><B>You should clone with</B></summary></br>
 
   ```shell
-$ git clone --recursive https://github.com/RogueMaster/flipperzero-firmware-wPlugins.git
+$ git clone --recursive https://github.com/HaxHeadroom/HaxHeadroom-flipperzero-firmware-wPlugins.git
 $ docker-compose up -d
 $ docker-compose exec dev ./fbt resources icons
 $ docker-compose exec dev ./fbt firmware_extapps FIRMWARE_APP_SET=ext_apps
