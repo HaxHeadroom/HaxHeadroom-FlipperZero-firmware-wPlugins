@@ -708,7 +708,7 @@ static void unirfremix_send_signal(
 
         while(!(furi_hal_subghz_is_async_tx_complete())) {
             notification_message(notification, &sequence_blink_magenta_10);
-            printf("Sending...");
+            printf("Hacking...");
             fflush(stdout);
             osDelay(333);
         }
@@ -831,7 +831,7 @@ static void render_callback(Canvas* canvas, void* ctx) {
         canvas_draw_str(canvas, 10, 50, app->ok_label);
 
         canvas_draw_str_aligned(
-            canvas, 11, 62, AlignLeft, AlignBottom, "Hold=Exit. Tap for Repeat:");
+            canvas, 11, 62, AlignLeft, AlignBottom, "Hold=Exit. Tap=Repeat:");
 
         //Status text and indicator
         canvas_draw_str_aligned(canvas, 126, 10, AlignRight, AlignBottom, app->send_status);
@@ -1066,7 +1066,7 @@ int32_t unirfremix_app(void* p) {
             } else if(app->processing == 1) {
                 FURI_LOG_I(TAG, "processing 1");
 
-                app->send_status = "Send";
+                app->send_status = "Hack";
 
                 switch(app->button) {
                 case 1:

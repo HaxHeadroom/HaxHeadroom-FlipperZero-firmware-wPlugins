@@ -2,7 +2,7 @@ Filetype: Flipper Animation
 Version: 1
 
 Width: 128
-Height: 54
+Height: 64
 Passive frames: 6
 Active frames: 8
 Frames order: 0 1 2 3 4 5 6 7 8 9 10 11 12 13
@@ -14,46 +14,46 @@ Active cooldown: 7
 Bubble slots: 1
 
 Slot: 0
-X: 71
-Y: 23
-Text: 7em!g!7j!\nVyP5?T-
+X: 51
+Y: 32
+Text: MjNUd2VudHl\nUaHJlZTIzPQ==
 AlignH: Left
 AlignV: Center
-StartFrame: 8
-EndFrame: 8
+StartFrame: 2
+EndFrame: 4
 
 Slot: 0
-X: 71
-Y: 23
-Text: aUqF7sz!\n%9.mP5H
+X: 51
+Y: 32
+Text: MjMuY29kZXM=
 AlignH: Left
 AlignV: Center
-StartFrame: 9
-EndFrame: 9
+StartFrame: 5
+EndFrame: 6
 
 Slot: 0
-X: 71
-Y: 23
-Text: 2%Kx2mV\nL8EyA84
+X: 51
+Y: 32
+Text: aHR0cHM6Ly9n\naXRodWIuY29t
 AlignH: Left
 AlignV: Center
-StartFrame: 10
+StartFrame: 7
 EndFrame: 10
 
 Slot: 0
-X: 71
-Y: 23
-Text: U7%cRXr\nvbBa!_W1
+X: 51
+Y: 32
+Text: LzIzLWNvZGVz\nLzIzQ29pbnM=
 AlignH: Left
 AlignV: Center
 StartFrame: 11
-EndFrame: 11
+EndFrame: 13
 
 Slot: 0
 X: 71
 Y: 23
-Text: 5rm_[K%\n!!(U9d$tE
+Text: How do I say\n 'UU'
 AlignH: Left
 AlignV: Center
-StartFrame: 12
-EndFrame: 12
+StartFrame: 1
+EndFrame: 11

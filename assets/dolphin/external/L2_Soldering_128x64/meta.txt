@@ -16,7 +16,7 @@ Bubble slots: 1
 Slot: 0
 X: 71
 Y: 28
-Text: I am busy rn
+Text: I M HAKC
 AlignH: Left
 AlignV: Center
 StartFrame: 10

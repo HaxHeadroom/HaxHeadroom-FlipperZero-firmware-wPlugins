@@ -2,7 +2,7 @@ Filetype: Flipper Animation
 Version: 1
 
 Width: 128
-Height: 50
+Height: 64
 Passive frames: 2
 Active frames: 4
 Frames order: 0 1 2 3 2 3
@@ -15,8 +15,8 @@ Bubble slots: 3
 
 Slot: 0
 X: 1
-Y: 17
-Text: I am happy,\nmy friend!
+Y: 20
+Text: Im not your\nbuddy,friend.\nHes not your\nfriend,guy
 AlignH: Right
 AlignV: Bottom
 StartFrame: 3
@@ -24,8 +24,9 @@ EndFrame: 9
 
 Slot: 1
 X: 1
-Y: 17
-Text: So long and\nthanks for\nall the fish!
+Y: 25
+Text:  ___ ____\n  |_  )__ / \n  / / |_ \\\n /___|___/
+
 AlignH: Right
 AlignV: Center
 StartFrame: 3
@@ -34,7 +35,7 @@ EndFrame: 9
 Slot: 2
 X: 1
 Y: 25
-Text: I wish I could
+Text: Hakc around\nand find out
 AlignH: Right
 AlignV: Bottom
 StartFrame: 3
@@ -43,7 +44,7 @@ EndFrame: 5
 Slot: 2
 X: 1
 Y: 25
-Text: swim all day
+Text: Its just a\nprank BRO!
 AlignH: Right
 AlignV: Bottom
 StartFrame: 6

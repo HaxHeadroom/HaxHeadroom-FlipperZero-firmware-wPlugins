@@ -16,7 +16,7 @@ Bubble slots: 1
 Slot: 0
 X: 5
 Y: 28
-Text: Predictable twist
+Text: It's Morbin' Time!!!
 AlignH: Right
 AlignV: Bottom
 StartFrame: 14

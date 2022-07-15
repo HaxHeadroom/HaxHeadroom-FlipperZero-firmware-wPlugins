@@ -11,4 +11,13 @@ Frame rate: 2
 Duration: 3600
 Active cooldown: 7
 
-Bubble slots: 0
+Bubble slots: 1
+
+Slot: 0
+X: 5
+Y: 28
+Text: #HaKCerBeats by\nARCHWISP.com
+AlignH: Right
+AlignV: Bottom
+StartFrame: 3
+EndFrame: 9
