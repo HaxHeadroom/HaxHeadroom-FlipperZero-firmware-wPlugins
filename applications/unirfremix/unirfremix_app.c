@@ -12,7 +12,7 @@
 
 #include <assets_icons.h>
 
-#define TAG "UniRF Remix"
+#define TAG "HakcRF Remote"
 
 typedef struct {
     osMutexId_t* model_mutex;
@@ -815,11 +815,11 @@ static void render_callback(Canvas* canvas, void* ctx) {
 
         //Icons for Labels
         //canvas_draw_icon(canvas, 0, 0, &I_UniRFRemix_LeftAlignedButtons_9x64);
-        canvas_draw_icon(canvas, 1, 5, &I_ButtonUp_7x4);
-        canvas_draw_icon(canvas, 1, 15, &I_ButtonDown_7x4);
-        canvas_draw_icon(canvas, 2, 23, &I_ButtonLeft_4x7);
-        canvas_draw_icon(canvas, 2, 33, &I_ButtonRight_4x7);
-        canvas_draw_icon(canvas, 0, 42, &I_Ok_btn_9x9);
+        canvas_draw_icon(canvas, 0, 3, &I_ButtonUp_7x4);
+        canvas_draw_icon(canvas, 0, 13, &I_ButtonDown_7x4);
+        canvas_draw_icon(canvas, 0, 23, &I_ButtonLeft_4x7);
+        canvas_draw_icon(canvas, 0, 33, &I_ButtonRight_4x7);
+        canvas_draw_icon(canvas, 0, 43, &I_Ok_btn_9x9);
         canvas_draw_icon(canvas, 0, 53, &I_back_10px);
 
         //Labels
@@ -831,7 +831,7 @@ static void render_callback(Canvas* canvas, void* ctx) {
         canvas_draw_str(canvas, 10, 50, app->ok_label);
 
         canvas_draw_str_aligned(
-            canvas, 11, 62, AlignLeft, AlignBottom, "Hold=Exit. Tap=Repeat:");
+            canvas, 11, 62, AlignLeft, AlignBottom, "  Hold=Exit (Tap=Repeat)");
 
         //Status text and indicator
         canvas_draw_str_aligned(canvas, 126, 10, AlignRight, AlignBottom, app->send_status);
@@ -957,7 +957,7 @@ int32_t unirfremix_app(void* p) {
             string_get_cstr(app->ok_file));
 
         //variables to control multiple button presses and status updates
-        app->send_status = "Idle";
+        app->send_status = "Plz HaKC";
         app->send_status_c = 0;
         app->processing = 0;
         app->repeat = 1;
@@ -1060,13 +1060,13 @@ int32_t unirfremix_app(void* p) {
 
             if(app->processing == 0) {
                 FURI_LOG_I(TAG, "processing 0");
-                app->send_status = "Idle";
+                app->send_status = ":(";
                 app->send_status_c = 0;
                 app->button = 0;
             } else if(app->processing == 1) {
                 FURI_LOG_I(TAG, "processing 1");
 
-                app->send_status = "Hack";
+                app->send_status = "Hacking";
 
                 switch(app->button) {
                 case 1:
