@@ -1,13 +1,13 @@
  ```                       ▓                        
                     ▒     ░▓▓░                    
                   ░       ▓▓▓▓▓                   
-                 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  B-B-Build with:                
-                 ▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓  $ git clone --recursive https://github.com/HaxHeadroom/HaxHeadroom-flipperzero-firmware-wPlugins.git                
-                       ▒▓ ▒▓▓▓▓▓  $ docker-compose up -d                
-                       ▒▓▓▓▓▓▓▓▓  $ docker-compose exec dev ./fbt resources icons                
-                 ▒ ▒▓▓▓▓▓ ▓▓▓▓▓▓  $ docker-compose exec dev ./fbt firmware_extapps FIRMWARE_APP_SET=ext_apps                
-                 ░      ▓ ▓▓▓▓▓▓  $ docker-compose exec dev ./fbt                
-                       ▒▓▓▓▓▓▓    or use ./scripts/nasties.sh                
+                 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  𝚝-𝚝-𝚝-𝚝-𝚝𝚞𝚗𝚎 𝚢𝚘𝚞𝚛 𝚏-𝚏-𝚏𝚕𝚒𝚙𝚙𝚎𝚛 𝚒𝚗𝚝𝚘 𝙽𝚎𝚝𝚠𝚘𝚛𝚔 𝟸𝟹!                 
+                 ▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓  𝚃𝚑𝚎 𝚍𝚘𝚕𝚙𝚑𝚒𝚗 𝚝𝚑𝚊𝚝𝚜 𝚊 *𝚛𝚎𝚊𝚕* 𝚑𝚊𝚔𝚌𝚎𝚛!               
+                       ▒▓ ▒▓▓▓▓▓                 
+                       ▒▓▓▓▓▓▓▓▓                  
+                 ▒ ▒▓▓▓▓▓ ▓▓▓▓▓▓                  
+                 ░      ▓ ▓▓▓▓▓▓                 
+                       ▒▓▓▓▓▓▓                    
                   ▒  ▓▓▓▓▓▓▓▓▓                    
                   ▓   ▓▓▓▓▓▓▓░                    
                  ▓     ▓▓▓▓▓▒▓▓                   
@@ -19,6 +19,20 @@
 ![](https://img.shields.io/github/commit-activity/w/HaxHeadroom/HaxHeadroom-flipperzero-firmware-wPlugins)
 
 [𝙾𝚏𝚏𝚒𝚌𝚒𝚊𝚕 𝙵𝚕𝚒𝚙𝚙𝚎𝚛 𝚉𝚎𝚛𝚘 𝙵𝚒𝚛𝚖𝚠𝚊𝚛𝚎 𝚁𝚎𝚊𝚍𝙼𝚎](https://github.com/flipperdevices/flipperzero-firmware/blob/dev/ReadMe.md)     |    [𝙱𝚎 𝚜𝚞𝚛𝚎 𝚝𝚘 𝚌𝚑𝚎𝚌𝚔 𝚘𝚞𝚝 𝚁𝚘𝚐𝚞𝚎𝙼𝚊𝚜𝚝𝚎𝚛'𝚜 𝚁𝚎𝚙𝚘](https://github.com/RogueMaster/flipperzero-firmware-wPlugins)
+
+# Infect your flipperzero with nasties in 2 easy steps!
+`step 0`
+- [Grab the latest DFU from the releases page](https://github.com/HaxHeadroom/HaxHeadroom-FlipperZero-firmware-wPlugins/releases)
+
+`step 1`
+- Move the contents of the SDcard directory from here: https://github.com/HaxHeadroom/HaxHeadroom-FlipperZero-Goodies
+
+`Moving Contents to your FlipperZero to enable Hackermode`
+
+![sdcard](https://github.com/HaxHeadroom/HaxHeadroom-FlipperZero-Goodies/raw/main/res/images/HaxHeadroomGoodies.gif)
+`How to use the new Elf Loader`
+
+![sdcard](https://github.com/HaxHeadroom/HaxHeadroom-FlipperZero-Goodies/raw/main/res/images/HaxHeadroomELF.gif)
 
 *This software is for experimental purposes only and is not meant for any illegal activity/purposes. We do not condone illegal activity and strongly encourage keeping transmissions to legal/valid uses allowed by law.*
 
@@ -124,5 +138,3 @@
 - [WAV Player (By Zlo)](https://github.com/flipperdevices/flipperzero-firmware/tree/zlo/wav-player) Updated by Atmanos & RogueMaster To Work
 </details>
 </td></tr></table>
-
-### Thank you, [MuddleBox](https://github.com/MuddledBox/flipperzero-firmware), [Eng1n33r](https://github.com/Eng1n33r/flipperzero-firmware), [WeTox-Team](https://github.com/wetox-team/flipperzero-firmware) & of course, most of all [Flipper Devices](https://github.com/flipperdevices/flipperzero-firmware)!
