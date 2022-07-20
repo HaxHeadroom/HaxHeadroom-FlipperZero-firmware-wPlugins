@@ -1,0 +1,33 @@
+[submodule "lib/mlib"]
+	path = src/lib/mlib
+	url = https://github.com/P-p-H-d/mlib.git
+[submodule "lib/STM32CubeWB"]
+	path = src/lib/STM32CubeWB
+	url = https://github.com/Flipper-Zero/STM32CubeWB.git
+[submodule "lib/littlefs"]
+	path = src/lib/littlefs
+	url = https://github.com/littlefs-project/littlefs.git
+[submodule "lib/nanopb"]
+	path = src/lib/nanopb
+	url = https://github.com/nanopb/nanopb.git
+[submodule "assets/protobuf"]
+	path = src/assets/protobuf
+	url = https://github.com/flipperdevices/flipperzero-protobuf.git
+[submodule "lib/libusb_stm32"]
+	path = src/lib/libusb_stm32
+	url = https://github.com/flipperdevices/libusb_stm32.git
+[submodule "lib/FreeRTOS-Kernel"]
+	path = src/lib/FreeRTOS-Kernel
+	url = https://github.com/FreeRTOS/FreeRTOS-Kernel.git
+[submodule "lib/microtar"]
+	path = src/lib/microtar
+	url = https://github.com/amachronic/microtar.git
+[submodule "lib/scons"]
+	path = src/lib/scons
+	url = https://github.com/SCons/scons.git
+[submodule "lib/mbedtls"]
+	path = src/lib/mbedtls
+	url = https://github.com/Mbed-TLS/mbedtls.git
+[submodule "lib/cxxheaderparser"]
+	path = src/lib/cxxheaderparser
+	url = https://github.com/robotpy/cxxheaderparser.git
