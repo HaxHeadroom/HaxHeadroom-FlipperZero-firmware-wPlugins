@@ -1,7 +1,0 @@
-{
-    "C_Cpp.errorSquiggles": "Disabled",
-    "files.associations": {
-        "__locale": "c",
-        "assets_icons.h": "c"
-    }
-}
